@@ -20,5 +20,5 @@ describe("Projection", () => {
       const expectedKeys = ["_id", "title"]
       expect(movieKeys).toEqual(expectedKeys)
     })
-  })
+  }, 300000)
 })
